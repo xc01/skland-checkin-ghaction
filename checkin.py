@@ -49,6 +49,7 @@ for cookie_line in cookie_lines:
     code = sign_response_json.get("code")
     message = sign_response_json.get("message")
     data = sign_response_json.get("data")
+    print(sign_response_json)
 
     # 返回成功的话，打印详细信息
     if code == SUCCESS_CODE:
